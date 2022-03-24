@@ -1,0 +1,35 @@
+.place {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 984px;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+.place:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+ }
+
+ @media screen and (max-width: 768px) {
+  .place {
+    padding-bottom: 72px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+ }
+
+ @media screen and (max-width: 320px) {
+  .place {
+    flex-direction: column;
+    padding-left: 0 ;
+    padding-right: 0;
+    padding-bottom: 50px;
+  }
+ }

@@ -1,0 +1,15 @@
+.place__website_row_url-heading {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  color: #aaa;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website_row_url-heading {
+    line-height: 1;
+  }
+ }
