@@ -6,7 +6,7 @@
   justify-content: center;
   max-width: 1184px;
   max-height: 740px;
-  height: 59vmin;
+  height: calc(100vw/1.7);
   background: url(../../images/cover-trains.jpg) no-repeat center / cover;
   margin: 0 auto 90px;
   cursor: pointer;
@@ -28,13 +28,6 @@
   opacity: .8;
 }
 
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    height: 64vmin;
-  }
- }
-
  @media screen and (max-width: 768px) {
   .cover {
     margin-bottom: 88px;
@@ -43,7 +36,7 @@
 
  @media screen and (max-width: 320px) {
   .cover {
-    height: 58vmin;
+    height: calc(100vw/1.5);
     margin-bottom: 58px;
   }
  }
