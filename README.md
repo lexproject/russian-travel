@@ -1,4 +1,6 @@
+
 # Проект: Путешествие по России
+![travel](https://user-images.githubusercontent.com/98919779/216031714-f3cd2cee-978d-4b44-a08d-f4c1dcb8254a.png)
 
 ### Обзор
 * Описание проекта
@@ -12,7 +14,7 @@
 
 ** Ссылка на репозиторий проета на GH Pages**
 
-* [Ссылка на репозиторий](https://lexproject.github.io/russian-travel/)
+* [Ссылка на сайт](https://lexproject.github.io/russian-travel/)
 
 **Инструкции**
 
